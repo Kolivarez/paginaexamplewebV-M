@@ -1,13 +1,10 @@
 import React from "react";
+import Slider from "../../inc/Slider.js";
 
 export const Inicio = () => {
   return (
-    <div className="container">
-      <div className="card mt-4">
-        <div className="card-body">
-          <h2> homepage</h2>
-        </div>
-      </div>
+    <div>
+      <Slider />
     </div>
   );
 };

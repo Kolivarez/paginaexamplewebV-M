@@ -1,4 +1,6 @@
 import React from 'react'
+import { carrusel1 } from "../images/CARRUSEL1.jpg";
+import { carrusel2 } from "../images/carrusel12.jpg";
 
 const Slider = () => {
   return (
@@ -10,13 +12,13 @@ const Slider = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={carrusel1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={carrusel2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={carrusel1} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
