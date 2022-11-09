@@ -1,6 +1,8 @@
 import React from 'react'
 import img1 from "../images/carrusel12.png";
 import img2 from "../images/CARRUSEL1.jpg";
+import img3 from "../images/segunda.jpg";
+
 
 
 const Slider = () => {
@@ -16,10 +18,10 @@ const Slider = () => {
           <img src={img2} class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={img1} class="d-block w-100" alt="..." />
+          <img src={img3} class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={img2} class="d-block w-100" alt="..." />
+          <img src={img1} class="d-block w-100" alt="..." />
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
