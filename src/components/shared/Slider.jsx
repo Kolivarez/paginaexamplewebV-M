@@ -5,7 +5,7 @@ import img3 from "../images/segunda.jpg";
 
 
 
-const Slider = () => {
+const Carousel = () => {
   return (
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
@@ -36,4 +36,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default Carousel

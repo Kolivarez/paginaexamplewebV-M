@@ -11,7 +11,7 @@ import PUNTO_NET from "../images/PUNTO_NET.png";
 import BANCO_CODESARROLLO from "../images/BANCO_CODESARROLLO.png";
 import LITYA from "../images/LITYA.png";
 
-const SliderHome = () => {
+const Carousel2 = () => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -114,4 +114,4 @@ const SliderHome = () => {
   );
 };
 
-export default SliderHome;
+export default Carousel2;

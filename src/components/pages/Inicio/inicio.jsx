@@ -1,14 +1,15 @@
 import React from "react";
 import "./inicio.css";
-import Slider from "../../inc/Slider.jsx";
-import SliderHome from "../../inc/SliderHome.jsx";
+import Carousel from "../../shared/Slider.jsx";
+import Carousel2 from "../../shared/SliderHome.jsx";
 import vistas from "../../images/vistas.png";
 import ubicacion from "../../images/ubicacion.png";
+
 
 export const Inicio = () => {
   return (
     <div>
-      <Slider />
+      <Carousel />
       <div class="d-flex flex-column flex-lg-row container-fluid my-4">
         <div class="col-12 col-lg-6 cuadro1">
           <h1 class="title1" data-aos="zoom-out">
@@ -63,7 +64,7 @@ export const Inicio = () => {
         </div>
       </div>
 
-      <SliderHome />
+      <Carousel2 />
     </div>
   );
 };
