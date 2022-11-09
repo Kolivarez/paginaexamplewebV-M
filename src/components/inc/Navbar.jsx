@@ -6,10 +6,11 @@ export const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <Link to="/" class="navbar-brand" href="#" >
+        <a class="navbar-brand" to="/" href="#">
           <img src={logo} alt="logo" width="100" height="100" />
         </a>
-        <Link to="/" class="navbar-brand" href="#" >SERVICIO EXPRESS</Link>
+          SERVICIO EXPRESS</Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
