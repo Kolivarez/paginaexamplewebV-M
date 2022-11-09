@@ -1,0 +1,67 @@
+.navLinkEmpresa {
+    color: #172b43;
+    font-weight: bold;
+  }
+  
+  .caja1 {
+    background-color: #172b43;
+    width: 100%;
+  }
+  .contenedor {
+    border: 0.14em solid #dad10a;
+  }
+  .empresa-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+  }
+  .title1 {
+    color: #dad10a;
+  }
+  .title10 {
+    color: #dad10a;
+    text-align: center;
+  }
+  .parrafo1 {
+    color: #ffffff;
+    text-align: justify;
+  }
+  .contenedor1 {
+    background-color: #dad10a;
+    width: 100%;
+  }
+  .contenedor5 {
+    border: 0.14em solid #dad10a;
+  }
+  .title3 {
+    color: #172b43;
+  }
+  .parrafo8 {
+    color: #172b43;
+    text-align: justify;
+  }
+  .historia-content {
+    padding: 0.5em 0.5em 0 0;
+  }
+  .auto {
+    max-width: 20em;
+    width: 100%;
+  }
+  
+  /*BOTON DIRIGE HACIA ARRIBA ******* */
+  .ir-arriba {
+    display: none;
+    background-repeat: no-repeat;
+    color: #dad10a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.71em;
+    right: 0.71em;
+    transform: translateY(-8.57em);
+    z-index: 2;
+  }
+  .ir-arriba:hover {
+    color: #172b43;
+  }
+  

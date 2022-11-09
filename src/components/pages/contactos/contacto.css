@@ -1,0 +1,129 @@
+.navLinkContactos {
+    color: #172b43;
+    font-weight: bold;
+  }
+  .containered {
+    height: 6rem;
+  }
+  .contacts {
+    width: 100%;
+    background-color: darkgrey;
+  }
+  .contacts .imagen {
+    width: 100%;
+  }
+  /*REDES SOCIALES*/
+  .contacts .container1 {
+    background-color: #172b43;
+    margin: 30px 50px 5px 20px;
+    padding: 30px;
+    font-size: 25px;
+    border: 2px solid black;
+    text-align: center;
+    width: 90%;
+  }
+  .ayudanos-content {
+    max-width: 50em;
+    width: 100%;
+    margin: auto
+  }
+  .subtitle {
+    color: white;
+    padding: 1em 0;
+  }
+  .form-opinion {
+    color: white;
+  }
+  .contacts .title1 {
+    color: #dad100;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contacts .redes-sociales {
+    padding: 3em 0;
+  }
+  .contacts .bi-facebook,
+  .contacts .bi-whatsapp,
+  .contacts .bi-email,
+  .contacts .bi-instagram,
+  .contacts .bi-youtube,
+  .contacts .bi-tiktok {
+    margin: 0 auto;
+    max-width: 3em;
+    width: 100%;
+  }
+  .contacts .p7 {
+    font-size: medium;
+  }
+  .contacts .title2 {
+    color: #dad100;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contacts .p2 {
+    color: #fff;
+    text-align: left;
+  }
+  .container3 {
+    background: #dad100;
+    margin: 20px 150px 20px 150px;
+    padding: 35px;
+    border: 2px solid black;
+  }
+  .container3 .title3 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .container3 p {
+    text-align: center;
+  }
+  .container3 label {
+    font-size: 50px;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  .label {
+    color: grey;
+  }
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  /*CORREO*/
+  .contacts .container5 {
+    background-color: #172b43;
+    margin: 10px 70px 10px 70px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+    border: 2px solid black;
+  }
+  .contacts .title5 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+  /*BOTON DIRIGE HACIA ARRIBA ******* */
+  .ir-arriba {
+    display: none;
+    background-repeat: no-repeat;
+    color: #dad10a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.71em;
+    right: 0.71em;
+    transform: translateY(-8.57em);
+    z-index: 2;
+  }
+  .ir-arriba:hover {
+    color: #172b43;
+  }
+  

@@ -1,0 +1,162 @@
+.navLinkInicio {
+    color: #172b43;
+    font-weight: bold;
+  }
+  /*SEVICIOS Y ACTIVIDAD DEL NEGOCIO*/
+  .cuadro1 {
+    background-color: #172b43;
+    padding: 2.5em;
+  }
+  .title1 {
+    color: #dad10a;
+    text-align: center;
+  }
+  .parrafo1 {
+    color: #ffffff;
+    padding: 1.07em;
+    margin: 1.42em;
+    text-align: justify;
+  }
+  .cuadro2 {
+    background-color: #dad10a;
+    padding: 2.5em;
+  }
+  .title2 {
+    color: #172b43;
+    text-align: center;
+  }
+  .parrafo2 {
+    color: #172b43;
+    padding: 1.07em;
+    margin: 1.42em;
+    text-align: justify;
+  }
+  
+  /*VISITAS Y CIUDADES*/
+  .cuadro3 {
+    background-color: #dad10a;
+    padding: 1.42em;
+  }
+  .centrado {
+    text-align: center;
+  }
+  .number1 {
+    color: #172b43;
+    text-align: center;
+  }
+  .title3 {
+    color: #172b43;
+    text-align: center;
+  }
+  .image3 {
+    width: 7.14em;
+  }
+  .cuadro4 {
+    background-color: #172b43;
+    padding: 1.42em;
+  }
+  .centrado {
+    text-align: center;
+  }
+  .left {
+    float: right;
+  }
+  .icon {
+    float: left;
+  }
+  .number {
+    color: #dad10a;
+    text-align: center;
+  }
+  .title4 {
+    text-align: center;
+    color: #dad10a;
+  }
+  .image4 {
+    width: 3.57em;
+  }
+  
+  /*Clientes*/
+  .cuadro5 {
+    background-color: #ffffff;
+    padding: 1.42em;
+    height: 42.85em;
+  }
+  .cuadro6 {
+    background-color: #172b43;
+    padding: 1.42em;
+    height: 28.57em;
+  }
+  .title5 {
+    text-align: center;
+    color: #dad10a;
+  }
+  /* --- --- CAROUSEL --- --- */
+  .cuadro5 {
+    background-color: #ffffff;
+    padding: 2em 1em 4em 1em;
+    height: 100%;
+  }
+  .title5 {
+    text-align: center;
+    color: #172b43;
+    padding-bottom: 2em;
+  }
+  .carousel1 {
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    margin: 0 auto;
+    min-height: 5em;
+    height: 100%;
+    width: 100%;
+  }
+  #imagen1,
+  #imagen2,
+  #imagen3 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  #retroceder,
+  #avanzar {
+    background: transparent;
+    display: none;
+    visibility: hidden;
+    border: none;
+    outline: none;
+    color: #172b43;
+  }
+  
+  @media screen and (min-width: 576px) {
+    #retroceder,
+    #avanzar {
+      display: block;
+      visibility: visible;
+    }
+    .carousel1 {
+      grid-template-columns: 5% repeat(3, calc(90% / 3)) 5%;
+    }
+  }
+  @media screen and (min-width: 1880px) {
+    .carousel1 {
+      min-height: 20em;
+    }
+  }
+  
+  /*BOTON DIRIGE HACIA ARRIBA ******* */
+  .ir-arriba {
+    display: none;
+    background-repeat: no-repeat;
+    color: #dad10a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.71em;
+    right: 0.71em;
+    transform: translateY(-8.57em);
+    z-index: 2;
+  }
+  .ir-arriba:hover {
+    color: #172b43;
+  }
+  

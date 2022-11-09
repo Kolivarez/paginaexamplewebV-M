@@ -1,0 +1,55 @@
+.navLinkServicios {
+    color: #172b43;
+    font-weight: bold;
+  }
+  .services {
+    padding: 1em 0 0 0;
+  }
+  .box-text-header {
+    background-color: #172b43;
+    padding: 0.5em 2em;
+    margin: 1em 2em;
+    border: 0.1em solid black;
+  }
+  .title-box-text-header {
+    color: #dad100;
+  }
+  .paragraph {
+    color: #ffffff;
+    text-align: justify;
+  }
+  .box-text-body {
+    background-color: #dad100;
+    padding: 2em;
+    border: 0.1em solid black;
+  }
+  .title-box-text-body {
+    color: #000000;
+    text-align: center;
+  }
+  .paragraph-box-text-body {
+    color: #000000;
+    text-align: justify;
+  }
+  .imagen-qr-right,
+  .imagen-qr-left {
+    padding: 1em;
+    width: 10em;
+  }
+  
+  /*BOTON DIRIGE HACIA ARRIBA ******* */
+  .ir-arriba {
+    display: none;
+    background-repeat: no-repeat;
+    color: #dad10a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.71em;
+    right: 0.71em;
+    transform: translateY(-8.57em);
+    z-index: 2;
+  }
+  .ir-arriba:hover {
+    color: #172b43;
+  }
+  
